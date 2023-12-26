@@ -1,0 +1,124 @@
+﻿namespace kar_hesaplama
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtAlisfiyat = new System.Windows.Forms.TextBox();
+            this.txtSatisfiyat = new System.Windows.Forms.TextBox();
+            this.textbox2 = new System.Windows.Forms.Label();
+            this.lblToplamkar = new System.Windows.Forms.Label();
+            this.btnKarHesapla = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(25, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ALIŞ FİYAT";
+            // 
+            // txtAlisfiyat
+            // 
+            this.txtAlisfiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtAlisfiyat.Location = new System.Drawing.Point(117, 49);
+            this.txtAlisfiyat.Name = "txtAlisfiyat";
+            this.txtAlisfiyat.Size = new System.Drawing.Size(100, 22);
+            this.txtAlisfiyat.TabIndex = 1;
+            // 
+            // txtSatisfiyat
+            // 
+            this.txtSatisfiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtSatisfiyat.Location = new System.Drawing.Point(117, 89);
+            this.txtSatisfiyat.Name = "txtSatisfiyat";
+            this.txtSatisfiyat.Size = new System.Drawing.Size(100, 22);
+            this.txtSatisfiyat.TabIndex = 3;
+            // 
+            // textbox2
+            // 
+            this.textbox2.AutoSize = true;
+            this.textbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textbox2.Location = new System.Drawing.Point(23, 89);
+            this.textbox2.Name = "textbox2";
+            this.textbox2.Size = new System.Drawing.Size(88, 16);
+            this.textbox2.TabIndex = 2;
+            this.textbox2.Text = "SATIŞ FİYA";
+            // 
+            // lblToplamkar
+            // 
+            this.lblToplamkar.AutoSize = true;
+            this.lblToplamkar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblToplamkar.Location = new System.Drawing.Point(103, 195);
+            this.lblToplamkar.Name = "lblToplamkar";
+            this.lblToplamkar.Size = new System.Drawing.Size(102, 16);
+            this.lblToplamkar.TabIndex = 4;
+            this.lblToplamkar.Text = "TOPLAM KAR";
+            // 
+            // btnKarHesapla
+            // 
+            this.btnKarHesapla.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKarHesapla.Location = new System.Drawing.Point(106, 130);
+            this.btnKarHesapla.Name = "btnKarHesapla";
+            this.btnKarHesapla.Size = new System.Drawing.Size(133, 36);
+            this.btnKarHesapla.TabIndex = 5;
+            this.btnKarHesapla.Text = "KAR HESAPLA";
+            this.btnKarHesapla.UseVisualStyleBackColor = true;
+            this.btnKarHesapla.Click += new System.EventHandler(this.btnKarHesapla_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnKarHesapla);
+            this.Controls.Add(this.lblToplamkar);
+            this.Controls.Add(this.txtSatisfiyat);
+            this.Controls.Add(this.textbox2);
+            this.Controls.Add(this.txtAlisfiyat);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtAlisfiyat;
+        private System.Windows.Forms.TextBox txtSatisfiyat;
+        private System.Windows.Forms.Label textbox2;
+        private System.Windows.Forms.Label lblToplamkar;
+        private System.Windows.Forms.Button btnKarHesapla;
+    }
+}
+

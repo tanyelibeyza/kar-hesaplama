@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace kar_hesaplama
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnKarHesapla_Click(object sender, EventArgs e)
+        {
+            double alisfiyat, satisfiyat, karhesapla, toplamkar;
+
+            alisfiyat = Convert.ToDouble(txtAlisfiyat.Text);
+            satisfiyat = Convert.ToDouble(txtSatisfiyat.Text);
+            toplamkar = alisfiyat - (alisfiyat + satisfiyat / 100);
+
+            lblToplamkar.Text = "toplam kar" + toplamkar;
+        }
+    }
+}

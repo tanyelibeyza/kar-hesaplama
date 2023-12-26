@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\bin\Debug\kar hesaplama.exe.config
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\bin\Debug\kar hesaplama.exe
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\bin\Debug\kar hesaplama.pdb
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar hesaplama.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar hesaplama.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar_hesaplama.Form1.resources
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar_hesaplama.Properties.Resources.resources
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar hesaplama.csproj.GenerateResource.cache
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar hesaplama.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar hesaplama.exe
+C:\Users\User\Desktop\KORUMASIZ\ntp\kar hesaplama\kar hesaplama\obj\Debug\kar hesaplama.pdb
